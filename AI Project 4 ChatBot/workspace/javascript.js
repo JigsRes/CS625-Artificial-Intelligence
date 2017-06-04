@@ -33,7 +33,7 @@ window.onload = function(e){
     })();
     //End Yandex Translator
     
-    SDK.applicationId = "238109865399829413"; //"2033702290708399205"
+    SDK.applicationId = "2033702290708399205"; //"2033702290708399205"
     var sdk = new SDKConnection();
     var web = new WebAvatar();
         web.connection = sdk;
