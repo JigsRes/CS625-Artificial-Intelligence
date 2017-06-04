@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0px;
+    height: 100%;
+    background: #183b47; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #183b47 16%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #183b47 16%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #183b47 16%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#183b47', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.gazelegend {
+    position: absolute;
+    left: 340px;
+    bottom: 10px;
+    width: 600px;
+    font-size: 30px;
+    color: #fff;
+}
+.gazelegend:not(.fixated) .fixated {
+    display: none;
+}
+.gazelegend.fixated .averted {
+    display: none;
+}
+.gazelegend:not(.fixated) .gazeImg {
+    background: url("away.png") center center no-repeat;
+    background-size: 100%;
+}
+.gazelegend.fixated .gazeImg {
+    background: url("fixated.png") center center no-repeat;
+    background-size: 100%;
+}
+.gazeImg {
+    width: 300px;
+    height: 265px;
+}
+.explanation {
+    font-size: 20px;
+}
+.translatedfield {
+    background: #ddd;
+}

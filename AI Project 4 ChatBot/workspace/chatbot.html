@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- Chatbot for CSCE 625 -->
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<title>Chatbot</title>
+<link rel="stylesheet" href="styles.css">
+<script src="jquery-3.2.1.min.js"></script>
+<script src="sdk.js"></script>
+<script src="javascript.js"></script>
+</head>
+	<body>
+		<textarea class="textfield" rows="4" cols="50">
+	    </textarea>
+		<textarea disabled="" class="translatedfield" rows="4" cols="50"></textarea>
+		<button class="button" type="button">Enter</button>
+			<div>
+			 <select id="language" >
+			  <option value="cmu-slt,en">English</option>
+			  <option value="bits1-hsmm,de">German</option>
+			  <option value="camille,fr">French</option>
+			 
+			</select>
+			</div>
+		
+		<div class="gazelegend">
+			<div class="gazeImg"></div>
+			Gaze: 
+			<span class="averted">Averted</span>
+			<span class="fixated">Fixated</span>
+			<span class="explanation"></span>
+		</div>
+		
+	</body>
+</html>
